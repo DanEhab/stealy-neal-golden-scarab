@@ -1,0 +1,20 @@
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.VC.db
+*.VC.opendb
+ipch/
+
+# Build output (the game's 3D models are also .obj files, so build folders are ignored instead of *.obj)
+[Dd]ebug/
+[Rr]elease/
+game/OpenGL3DTemplate/
+*.pdb
+*.ilk
+*.idb
+*.tlog
+*.recipe
+
+# The background music is not part of the repository (see the README)
+game/*.mp3

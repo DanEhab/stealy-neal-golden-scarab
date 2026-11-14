@@ -1,0 +1,16 @@
+# Keep the game files byte for byte as they were written on Windows (CRLF line endings included)
+game/** -text
+
+# 3D models are data, not code
+*.obj -diff linguist-generated
+*.mtl -diff linguist-generated
+
+# GLUT is a third-party library
+game/glut.h linguist-vendored
+
+*.wav binary
+*.bmp binary
+*.dll binary
+*.lib binary
+*.png binary
+*.gif binary
