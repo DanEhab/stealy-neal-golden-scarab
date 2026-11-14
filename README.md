@@ -83,7 +83,7 @@ Everything is drawn with the OpenGL fixed-function pipeline through GLUT, in a f
 
 ### Download
 
-The [Build workflow](https://github.com/DanEhab/stealy-neal-golden-scarab/actions/workflows/build.yml) compiles the game on Windows and packages it with its models and sounds. Download `StealyNeal-Windows.zip` from the [latest release](https://github.com/DanEhab/stealy-neal-golden-scarab/releases/latest), unzip it and run `StealyNeal.exe`. The game is Windows only.
+The [Build workflow](https://github.com/DanEhab/stealy-neal-golden-scarab/actions/workflows/build.yml) compiles the game on Windows and packages it with its models and sounds as `StealyNeal-Windows.zip`, which it attaches to every [release](https://github.com/DanEhab/stealy-neal-golden-scarab/releases). Unzip it and run `StealyNeal.exe`. The game is Windows only.
 
 ### Build from source
 
